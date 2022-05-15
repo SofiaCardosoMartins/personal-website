@@ -117,6 +117,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  trips:
+    output: true
+    permalink: /trips/:path/
 
 news_limit: 5
 
