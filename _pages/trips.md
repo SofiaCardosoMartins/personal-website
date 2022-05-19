@@ -2,7 +2,7 @@
 layout: page
 title: Trips
 permalink: /trips/
-description: A growing collection of your cool projects.
+description: A growing collection of my trips.
 nav: true
 nav_order: 1
 display_categories: [Europe]
