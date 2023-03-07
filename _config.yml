@@ -84,10 +84,11 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Blog # blog_name will be displayed in your blog page
-blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Thoughts fly by at fast, imperceptible speed. If we don't write them down, we may only get to meet them again after a long while.
-permalink: /blog/:year/:title/
+blog_name: Research # blog_name will be displayed in your blog page
+blog_nav_title: Research # your blog must have a title for it to be displayed in the nav bar
+blog_description: A blog about my research and other academic activities
+# Thoughts fly by at fast, imperceptible speed. If we don't write them down, we may only get to meet them again after a long while.
+permalink: /research/:year/:title/
 
 # Pagination
 pagination:
@@ -196,9 +197,9 @@ jekyll-archives:
     tag: archive-tag
     category: archive-category
   permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
+    year: '/research/:year/'
+    tag: '/research/tag/:name/'
+    category: '/research/category/:name/'
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
